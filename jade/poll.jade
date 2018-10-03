@@ -12,16 +12,35 @@ html
           include menu.jade
 
           div(class='poll')
-               div(class='question')
-                    h1 What is your age?
-          
+               div(class='question')          
                     form(action='#' method='POST')
+                         h1 What is your age?
                          p 3-12
-                              input(type='radio' name='age' value='3-12')
+                         input(type='radio' name='age' value='3 to 12')
                          p 13-18
-                              input(type='radio' name='age' value='13-18')
+                         input(type='radio' name='age' value='13 to18')
                          p 18+
-                              input(type='radio' name='age' value='18+')
+                         input(type='radio' name='age' value='18 or older')
                          p 55+
-                              input(type='radio' name='age' value='55+')
+                         input(type='radio' name='age' value='55 or older')
+                         
+                         h1 Would you buy ConnectBot?
+                         p Yes
+                         input(type='radio' name='buy' value='yes')
+                         p No
+                         input(type='radio' name='buy' value='no')
+                         
+                         h1 How likely are you to recommend ConnectBot to your friends, collegues or family? 
+                         p Very likely
+                         input(type='radio' name='like' value='Very likely')
+                         p Likely
+                         input(type='radio' name='like' value='Likely')
+                         p Not likely
+                         input(type='radio' name='like' value='Not likely')
+                         p Absolutely not likely
+                         input(type='radio' name='like' value='Absolutely not likely')
+                         
+                         h2 Submit form
+                         input(type='submit' value='Submit' id='submit')
+
  

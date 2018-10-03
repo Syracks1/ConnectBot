@@ -173,14 +173,6 @@
   padding-bottom: 3%;
   font-size: 17px; }
 
-.text-bg-release {
-  margin: 0;
-  text-align: center;
-  background-image: url(../content/img/bg_release_dark.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
-
 .text-bg-release h1 {
   padding-top: 9%;
   font-size: 24px;
@@ -194,3 +186,41 @@
   padding-bottom: 9%;
   margin-top: 15px;
   font-size: 17px; }
+
+.poll {
+  margin: 0;
+  text-align: center;
+  background-image: url(../content/img/bg_robots_dark.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.question h1 {
+  padding-top: 2%;
+  margin-bottom: 1%;
+  font-size: 24px;
+  color: #ffae00;
+  letter-spacing: 3; }
+
+.question h2 {
+  font-size: 17px;
+  color: #ffae00;
+  letter-spacing: 3; }
+
+.question p {
+  color: #fff; }
+
+.question input {
+  margin-bottom: 2%; }
+
+#submit {
+  width: 9%;
+  height: 3%;
+  font-size: 17px;
+  color: #ffae00;
+  background-color: Transparent;
+  border: 1px solid #ffae00; }
+
+#submit:hover {
+  color: #ffea00;
+  border: 1px solid #ffea00; }
