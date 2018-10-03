@@ -20,5 +20,6 @@
           $echo = 'Success!';
      }
 
+     DB::query("SELECT age, buy, SUM(rec = 'Very likely') AS 'Very likely' FROM poll");
      echo $age . '<br />' . $buy . '<br />' . $like;
 ?>
