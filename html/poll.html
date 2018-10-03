@@ -9,16 +9,37 @@
     <link rel="stylesheet" href="../css/screen-size/laptop.css" media="screen and (min-width: 900px) and (max-width: 1980px)"/>
     <link rel="stylesheet" href="../css/style.css"/>
   </head>
-  <div class="header">
-    <ul>
-      <li>
-        <p>ConnectBot</p>
-      </li>
-      <li><a href="#">Buy</a></li>
-      <li><a href="#">Poll</a></li>
-      <li><a href="../html/company.html">Company</a></li>
-      <li><a href="../html/about.html">About</a></li>
-      <li><a href="../index.html">Home</a></li>
-    </ul>
-  </div>
+  <body>
+    <div class="header">
+      <ul>
+        <li>
+          <p>ConnectBot</p>
+        </li>
+        <li><a href="#">Buy</a></li>
+        <li><a href="../inc/poll.php">Poll</a></li>
+        <li><a href="../html/company.html">Company</a></li>
+        <li><a href="../html/about.html">About</a></li>
+        <li><a href="../index.html">Home</a></li>
+      </ul>
+    </div>
+    <div class="poll">
+      <div class="question">
+        <h1>What is your age?</h1>
+        <form action="#" method="POST">
+          <p>3-12
+            <input type="radio" name="age" value="3-12"/>
+          </p>
+          <p>13-18
+            <input type="radio" name="age" value="13-18"/>
+          </p>
+          <p>18+
+            <input type="radio" name="age" value="18+"/>
+          </p>
+          <p>55+
+            <input type="radio" name="age" value="55+"/>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>

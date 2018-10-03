@@ -8,4 +8,20 @@ html
           link(rel='stylesheet' href='../css/screen-size/laptop.css' media='screen and (min-width: 900px) and (max-width: 1980px)')
           link(rel='stylesheet' href='../css/style.css')
 
-     include menu.jade
+     body
+          include menu.jade
+
+          div(class='poll')
+               div(class='question')
+                    h1 What is your age?
+          
+                    form(action='#' method='POST')
+                         p 3-12
+                              input(type='radio' name='age' value='3-12')
+                         p 13-18
+                              input(type='radio' name='age' value='13-18')
+                         p 18+
+                              input(type='radio' name='age' value='18+')
+                         p 55+
+                              input(type='radio' name='age' value='55+')
+ 
