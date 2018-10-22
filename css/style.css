@@ -173,6 +173,14 @@
   padding-bottom: 3%;
   font-size: 17px; }
 
+.text-bg-release {
+  margin: 0;
+  text-align: center;
+  background-image: url(../content/img/bg_release_dark.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
 .text-bg-release h1 {
   padding-top: 9%;
   font-size: 24px;
