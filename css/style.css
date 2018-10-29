@@ -150,7 +150,7 @@
   margin-left: 15%;
   margin-right: 15%;
   color: #fff;
-  padding-bottom: 9%;
+  padding-bottom: 3%;
   margin-top: 15px;
   font-size: 17px; }
 
@@ -191,7 +191,7 @@
   margin-left: 15%;
   margin-right: 15%;
   color: #fff;
-  padding-bottom: 9%;
+  padding-bottom: 3%;
   margin-top: 15px;
   font-size: 17px; }
 
@@ -232,3 +232,6 @@
 #submit:hover {
   color: #ffea00;
   border: 1px solid #ffea00; }
+
+#buy {
+  color: #535353; }

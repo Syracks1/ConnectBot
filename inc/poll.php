@@ -9,7 +9,7 @@
      // $employee = $statement->fetchAll(PDO::FETCH_OBJ);
 
      // Below code hides errors. PLEASE enable during coding
-     // error_reporting(E_ERROR | E_PARSE);
+     error_reporting(E_ERROR | E_PARSE);
 
      $age = $_POST['age'];
      $buy = $_POST['buy'];
@@ -21,5 +21,5 @@
      }
 
      DB::query("SELECT age, buy, SUM(rec = 'Very likely') AS 'Very likely' FROM poll");
-     echo $age . '<br />' . $buy . '<br />' . $like;
+     // echo $age . '<br />' . $buy . '<br />' . $like;
 ?>
